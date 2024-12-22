@@ -1,0 +1,22 @@
+div {
+    text-align: center;
+}
+body{
+    background-color: pink;
+}
+span{
+    position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+h1{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 10px;
+}
