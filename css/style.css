@@ -29,7 +29,7 @@ a{
 }
 .heroText{
     padding-left: 100px;
-    margin-bottom: 11rem;
+
     position: relative;
 }
 .heroText p{
@@ -52,3 +52,8 @@ a{
     top: -13rem;
     left: 0;
 }
+.swiper {
+    width: 600px;
+    height: 200px;
+  }
+  
