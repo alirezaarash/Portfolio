@@ -11,6 +11,7 @@
 
 body{
     font-family: Alata !important;
+    overflow-y: hidden;
 }
 
 .logoFont{
@@ -22,4 +23,32 @@ a{
 }
 .navigationLink{
     color: rgb(41, 41, 41) !important;
+}
+.container-fluid{
+    padding-right: 0px !important;
+}
+.heroText{
+    padding-left: 100px;
+    margin-bottom: 11rem;
+    position: relative;
+}
+.heroText p{
+    font-size: 45px;
+    
+}
+.heroText h1{
+    font-size: 85px;
+    margin-bottom: 2rem;
+}
+.heroText h2{
+    font-size: 45px;
+}
+.heroText h2 span{
+    font-weight: bold;
+    color: #FB8833;
+}
+.ink1{
+    position: absolute;
+    top: -13rem;
+    left: 0;
 }

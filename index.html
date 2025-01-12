@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
 </head>
 <body>
     <div class="container">
@@ -27,8 +30,68 @@
         </div>    
        </section>
     </div>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="heroText">
+                <p>Hi, it's me</p>
+                <h1>Alireza Arashi</h1>
+                <h2>and i'm a <span>Front End Developer</span></h2>
+                <h2>and also a <span>UI/UX Designer</span></h2>
+                <img src="assets/images/ink.png" class="ink1" alt="">
+                <div>
+             
+                </div>
+            </div>
+            <div>
+                <img src="assets/images/Hero.png" alt="">
+            </div>
+       </div>
+    </div>
 
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>   
 
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'vertical',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+        });
+    </script>
     <script src="assets/bootstrap.bundle.min.js"></script>
 </body>
 </html>
