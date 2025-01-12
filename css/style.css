@@ -1,0 +1,13 @@
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.logoFont{
+    font-family: Pacifico;
+    font-size: 30px;
+}
+a{
+    text-decoration: none !important;
+}
