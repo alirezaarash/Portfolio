@@ -55,7 +55,11 @@ a{
 .swiper {
     width: 600px;
     height: 200px;
-  }
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
 @media only screen and (max-width: 600px) {
   .heroText{
     padding: 0px 10px;
@@ -74,4 +78,11 @@ a{
   .ink1{
     z-index: -1;
   }
+}
+
+.navbar-toggler-icon {
+    background-image:url("data:image/svg+xml;charset=utf8,%3CsvgviewBox='0 0 30 30'xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 4L26 26M26 4L4 26'/%3E%3C/svg%3E") !important;
 }
