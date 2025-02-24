@@ -66,8 +66,17 @@ a{
     text-align: center;
     margin-top: 30px;
   }
+  .heroText h1{
+    font-size: 2rem;
+  }
+  .heroText p{
+    font-size: 1rem;
+  }
+  .heroText h2{
+    font-size: 1.5rem;
+  }
   .swiper-slide img{
-    width: 2rem !important;
+    width: 2.5rem !important;
   }
   .swiper-slide{
     width: 100% !important;
