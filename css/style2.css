@@ -1,10 +1,11 @@
 body{
     height: 100vh;
     margin: 0;
-    background-color: rgb(14, 8, 44);
+    background: rgb(255,255,255) !important;
+    background: linear-gradient(66deg, rgba(255,255,255,1) 0%, rgba(0,0,60,1) 0%, rgba(15,65,75,1) 100%) !important; 
 }
 iframe{
-    width: 100%;
+    width: 50%;
     margin-right: auto;
     position: absolute;
     z-index: 2;
